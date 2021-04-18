@@ -75,6 +75,9 @@ MonoBehaviour:
   movementSpeed: 1
   CharacterRenderer: {fileID: 8919289661183982108}
   attackIcon: {fileID: 0}
+  Gain: {fileID: 0}
+  GainST: {fileID: 0}
+  PauseMenu: {fileID: 0}
   run: {fileID: 0}
   swing: {fileID: 0}
   hurt: {fileID: 0}
@@ -90,6 +93,9 @@ MonoBehaviour:
   invincibilityDurationSeconds: 0
   flashDuration: 0
   canNotAttackDuration: 0
+  scoreAchieved: 0
+  scoreNeeded: 0
+  scoreCurrent: 0
   state: 0
   healthBar: {fileID: 0}
   weaponHit: {fileID: 0}
@@ -98,21 +104,11 @@ MonoBehaviour:
     type: 3}
   DeadEnemy: {fileID: 6951380383607610015, guid: 276c94c20165ee04d8dd33c86ea55373,
     type: 3}
+  DeadFastEnemy: {fileID: 0}
   HitEffect: {fileID: 1570927096764274, guid: 643639841fb531e4ba8097fed4eb9ac7, type: 3}
   ChestHitEffect: {fileID: 1459862227383078, guid: cc461484bcafc664fb68be84c1fc6860,
     type: 3}
   Enemy: {fileID: 6044080253728657720, guid: 6163c9694eaa0ac499bbc877612cf566, type: 3}
-  Spawner: {fileID: 373053194616634563, guid: ada53ad12e32e6d4a9852b2d1c5d4813, type: 3}
-  Spawner2: {fileID: 1239101477336279387, guid: 7e000d447743d984bbc407662fa2a012,
-    type: 3}
-  Spawner3: {fileID: 4491757317772261924, guid: 5e4163facfcc1bf4cb223d6823555824,
-    type: 3}
-  randomNum: 0
-  randomNum2: 0
-  randomNum3: 0
-  spawnpos: {x: 0, y: 0, z: 0}
-  spawnpos2: {x: 0, y: 0, z: 0}
-  spawnpos3: {x: 0, y: 0, z: 0}
 --- !u!82 &6151651512928012973
 AudioSource:
   m_ObjectHideFlags: 0
@@ -380,6 +376,9 @@ MonoBehaviour:
   movementSpeed: 1
   CharacterRenderer: {fileID: 8919289661183982108}
   attackIcon: {fileID: 0}
+  Gain: {fileID: 0}
+  GainST: {fileID: 0}
+  PauseMenu: {fileID: 0}
   run: {fileID: 0}
   swing: {fileID: 0}
   hurt: {fileID: 0}
@@ -395,6 +394,9 @@ MonoBehaviour:
   invincibilityDurationSeconds: 0
   flashDuration: 0
   canNotAttackDuration: 0
+  scoreAchieved: 0
+  scoreNeeded: 0
+  scoreCurrent: 0
   state: 0
   healthBar: {fileID: 0}
   weaponHit: {fileID: 0}
@@ -403,21 +405,11 @@ MonoBehaviour:
     type: 3}
   DeadEnemy: {fileID: 6951380383607610015, guid: 276c94c20165ee04d8dd33c86ea55373,
     type: 3}
+  DeadFastEnemy: {fileID: 0}
   HitEffect: {fileID: 1570927096764274, guid: 643639841fb531e4ba8097fed4eb9ac7, type: 3}
   ChestHitEffect: {fileID: 1459862227383078, guid: cc461484bcafc664fb68be84c1fc6860,
     type: 3}
   Enemy: {fileID: 6044080253728657720, guid: 6163c9694eaa0ac499bbc877612cf566, type: 3}
-  Spawner: {fileID: 373053194616634563, guid: ada53ad12e32e6d4a9852b2d1c5d4813, type: 3}
-  Spawner2: {fileID: 1239101477336279387, guid: 7e000d447743d984bbc407662fa2a012,
-    type: 3}
-  Spawner3: {fileID: 4491757317772261924, guid: 5e4163facfcc1bf4cb223d6823555824,
-    type: 3}
-  randomNum: 0
-  randomNum2: 0
-  randomNum3: 0
-  spawnpos: {x: 0, y: 0, z: 0}
-  spawnpos2: {x: 0, y: 0, z: 0}
-  spawnpos3: {x: 0, y: 0, z: 0}
 --- !u!82 &3991991889601775260
 AudioSource:
   m_ObjectHideFlags: 0
@@ -685,6 +677,9 @@ MonoBehaviour:
   movementSpeed: 1
   CharacterRenderer: {fileID: 8919289661183982108}
   attackIcon: {fileID: 0}
+  Gain: {fileID: 0}
+  GainST: {fileID: 0}
+  PauseMenu: {fileID: 0}
   run: {fileID: 0}
   swing: {fileID: 0}
   hurt: {fileID: 0}
@@ -700,6 +695,9 @@ MonoBehaviour:
   invincibilityDurationSeconds: 0
   flashDuration: 0
   canNotAttackDuration: 0
+  scoreAchieved: 0
+  scoreNeeded: 0
+  scoreCurrent: 0
   state: 0
   healthBar: {fileID: 0}
   weaponHit: {fileID: 0}
@@ -708,21 +706,11 @@ MonoBehaviour:
     type: 3}
   DeadEnemy: {fileID: 6951380383607610015, guid: 276c94c20165ee04d8dd33c86ea55373,
     type: 3}
+  DeadFastEnemy: {fileID: 0}
   HitEffect: {fileID: 1570927096764274, guid: 643639841fb531e4ba8097fed4eb9ac7, type: 3}
   ChestHitEffect: {fileID: 1459862227383078, guid: cc461484bcafc664fb68be84c1fc6860,
     type: 3}
   Enemy: {fileID: 6044080253728657720, guid: 6163c9694eaa0ac499bbc877612cf566, type: 3}
-  Spawner: {fileID: 373053194616634563, guid: ada53ad12e32e6d4a9852b2d1c5d4813, type: 3}
-  Spawner2: {fileID: 1239101477336279387, guid: 7e000d447743d984bbc407662fa2a012,
-    type: 3}
-  Spawner3: {fileID: 4491757317772261924, guid: 5e4163facfcc1bf4cb223d6823555824,
-    type: 3}
-  randomNum: 0
-  randomNum2: 0
-  randomNum3: 0
-  spawnpos: {x: 0, y: 0, z: 0}
-  spawnpos2: {x: 0, y: 0, z: 0}
-  spawnpos3: {x: 0, y: 0, z: 0}
 --- !u!82 &2131253984272411582
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1021,6 +1009,9 @@ MonoBehaviour:
   movementSpeed: 1
   CharacterRenderer: {fileID: 8919289661183982108}
   attackIcon: {fileID: 0}
+  Gain: {fileID: 0}
+  GainST: {fileID: 0}
+  PauseMenu: {fileID: 0}
   run: {fileID: 0}
   swing: {fileID: 0}
   hurt: {fileID: 0}
@@ -1036,6 +1027,9 @@ MonoBehaviour:
   invincibilityDurationSeconds: 0
   flashDuration: 0
   canNotAttackDuration: 0
+  scoreAchieved: 0
+  scoreNeeded: 0
+  scoreCurrent: 0
   state: 0
   healthBar: {fileID: 0}
   weaponHit: {fileID: 0}
@@ -1044,21 +1038,11 @@ MonoBehaviour:
     type: 3}
   DeadEnemy: {fileID: 6951380383607610015, guid: 276c94c20165ee04d8dd33c86ea55373,
     type: 3}
+  DeadFastEnemy: {fileID: 0}
   HitEffect: {fileID: 1570927096764274, guid: 643639841fb531e4ba8097fed4eb9ac7, type: 3}
   ChestHitEffect: {fileID: 1459862227383078, guid: cc461484bcafc664fb68be84c1fc6860,
     type: 3}
   Enemy: {fileID: 6044080253728657720, guid: 6163c9694eaa0ac499bbc877612cf566, type: 3}
-  Spawner: {fileID: 373053194616634563, guid: ada53ad12e32e6d4a9852b2d1c5d4813, type: 3}
-  Spawner2: {fileID: 1239101477336279387, guid: 7e000d447743d984bbc407662fa2a012,
-    type: 3}
-  Spawner3: {fileID: 4491757317772261924, guid: 5e4163facfcc1bf4cb223d6823555824,
-    type: 3}
-  randomNum: 0
-  randomNum2: 0
-  randomNum3: 0
-  spawnpos: {x: 0, y: 0, z: 0}
-  spawnpos2: {x: 0, y: 0, z: 0}
-  spawnpos3: {x: 0, y: 0, z: 0}
 --- !u!82 &3399793284261864404
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1326,6 +1310,9 @@ MonoBehaviour:
   movementSpeed: 1
   CharacterRenderer: {fileID: 8919289661183982108}
   attackIcon: {fileID: 0}
+  Gain: {fileID: 0}
+  GainST: {fileID: 0}
+  PauseMenu: {fileID: 0}
   run: {fileID: 0}
   swing: {fileID: 0}
   hurt: {fileID: 0}
@@ -1341,6 +1328,9 @@ MonoBehaviour:
   invincibilityDurationSeconds: 0
   flashDuration: 0
   canNotAttackDuration: 0
+  scoreAchieved: 0
+  scoreNeeded: 0
+  scoreCurrent: 0
   state: 0
   healthBar: {fileID: 0}
   weaponHit: {fileID: 0}
@@ -1349,21 +1339,11 @@ MonoBehaviour:
     type: 3}
   DeadEnemy: {fileID: 6951380383607610015, guid: 276c94c20165ee04d8dd33c86ea55373,
     type: 3}
+  DeadFastEnemy: {fileID: 0}
   HitEffect: {fileID: 1570927096764274, guid: 643639841fb531e4ba8097fed4eb9ac7, type: 3}
   ChestHitEffect: {fileID: 1459862227383078, guid: cc461484bcafc664fb68be84c1fc6860,
     type: 3}
   Enemy: {fileID: 6044080253728657720, guid: 6163c9694eaa0ac499bbc877612cf566, type: 3}
-  Spawner: {fileID: 373053194616634563, guid: ada53ad12e32e6d4a9852b2d1c5d4813, type: 3}
-  Spawner2: {fileID: 1239101477336279387, guid: 7e000d447743d984bbc407662fa2a012,
-    type: 3}
-  Spawner3: {fileID: 4491757317772261924, guid: 5e4163facfcc1bf4cb223d6823555824,
-    type: 3}
-  randomNum: 0
-  randomNum2: 0
-  randomNum3: 0
-  spawnpos: {x: 0, y: 0, z: 0}
-  spawnpos2: {x: 0, y: 0, z: 0}
-  spawnpos3: {x: 0, y: 0, z: 0}
 --- !u!82 &2409507716453560933
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1693,6 +1673,9 @@ MonoBehaviour:
   movementSpeed: 2
   CharacterRenderer: {fileID: 8919289661183982108}
   attackIcon: {fileID: 0}
+  Gain: {fileID: 0}
+  GainST: {fileID: 0}
+  PauseMenu: {fileID: 0}
   run: {fileID: 0}
   swing: {fileID: 0}
   hurt: {fileID: 0}
@@ -1708,6 +1691,9 @@ MonoBehaviour:
   invincibilityDurationSeconds: 0
   flashDuration: 0
   canNotAttackDuration: 0
+  scoreAchieved: 0
+  scoreNeeded: 0
+  scoreCurrent: 0
   state: 0
   healthBar: {fileID: 0}
 --- !u!82 &1132802264210526654

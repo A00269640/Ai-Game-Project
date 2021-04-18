@@ -13,7 +13,7 @@ EditorBuildSettings:
     guid: 581bdfd6b171ce748a13fe90cfa4205a
   - enabled: 1
     path: Assets/Scenes/Levels/Tutorial.unity
-    guid: 0d770ed982f775b4a8051abecbfa6354
+    guid: 4e11aab8be1d288409e9de0108264b36
   - enabled: 1
     path: Assets/Scenes/Levels/Level1.unity
     guid: 25438b2b883600844ab469f0e9d283b6
@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CreditsScene.unity
     guid: f658ff0524fa72246b0c0620948a293c
+  - enabled: 0
+    path: Assets/Scenes/Levels/TutorialOld.unity
+    guid: 0d770ed982f775b4a8051abecbfa6354
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
